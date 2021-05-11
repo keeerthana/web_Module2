@@ -1,0 +1,46 @@
+h1{
+	color:white;
+	text-align: center;
+	background-color:teal;
+	border:2px solid crimson;
+}
+table{
+	margin:auto;
+}
+
+table td{
+	
+	border-collapse:collapse;
+	padding:10px;
+}
+
+td{
+	text-align:center;
+}
+tfoot{
+	border-top:2px solid black;
+}
+
+
+tfoot td{
+	text-align:right;
+}
+
+thead{
+	
+	background-color:#5e3636;
+	padding:20px;
+}
+tbody tr:hover{
+	background-color:#cacaca;
+}
+thead th{
+	color:white;
+	padding:20px;
+}
+tbody tr:nth-child(even){
+	background-color:#cacaca;
+}
+caption{
+	border-top:2px solid black;
+}
